@@ -1,0 +1,14 @@
+<web-app>
+    <display-name>Simple App</display-name>
+    <servlet>
+        <servlet-name>SimpleServlet</servlet-name>
+        <servlet-class>MyServlet</servlet-class>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SimpleServlet</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+</web-app>
